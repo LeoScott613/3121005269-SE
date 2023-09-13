@@ -1,0 +1,2 @@
+-install NLTK
+-use NLTK to tokenize a sentence
