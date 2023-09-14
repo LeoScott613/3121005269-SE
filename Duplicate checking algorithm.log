@@ -1,2 +1,7 @@
 -install NLTK
 -use NLTK to tokenize a sentence
+-install sentence transformer
+-use sentence transformer to analyse duplicate degree
+-add .gitignore
+-delete irrelevant NLTK
+-successfully calculate text similarity
