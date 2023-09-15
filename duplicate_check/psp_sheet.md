@@ -53,7 +53,7 @@
 <p>210</p>
 </td>
 <td width="75">
-<p>&nbsp;</p>
+<p>290</p>
 </td>
 </tr>
 <tr>
@@ -179,7 +179,7 @@
 <p>60</p>
 </td>
 <td width="75">
-<p>&nbsp;</p>
+<p>60</p>
 </td>
 </tr>
 <tr>
@@ -193,7 +193,7 @@
 <p>20</p>
 </td>
 <td width="75">
-<p>&nbsp;</p>
+<p>20</p>
 </td>
 </tr>
 <tr>
@@ -207,7 +207,7 @@
 <p>20</p>
 </td>
 <td width="75">
-<p>&nbsp;</p>
+<p>20</p>
 </td>
 </tr>
 <tr>
@@ -221,7 +221,7 @@
 <p>20</p>
 </td>
 <td width="75">
-<p>&nbsp;</p>
+<p>20</p>
 </td>
 </tr>
 <tr>
@@ -235,7 +235,7 @@
 <p>300</p>
 </td>
 <td width="75">
-<p>&nbsp;</p>
+<p>370</p>
 </td>
 </tr>
 </tbody>
