@@ -49,3 +49,4 @@ def main():
     print ("orig_0.8_dis_15和orig的文本相似度",cosine_value5.item()*100,"%")
 
 # cProfile.run("main()")
+main()

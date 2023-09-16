@@ -70,3 +70,29 @@
 <td width="192"><p>&nbsp;</p></td><td width="168">
 <p>·&nbsp;合计</p></td><td width="75"><p>300</p></td>
 <td width="75"><p>370</p></td></tr></tbody></table>
+
+## 计算模块接口的设计与实现过程
+本程序的依赖要求
+```python
+sentence-transformers
+paraphrase-multilingual-MiniLM-L12-v2
+```
+
+本程序使用sentence transformer提供的接口完成任务，引用的设计如下
+```python
+from sentence_transformers.util import cos_sim
+from sentence_transformers import SentenceTransformer
+```
+
+完成两句文本的相似度检查过程如下
+```python
+sentence1="当你竭尽所能却只能铩羽而归"
+sentence2="当你竭尽所能却无法入睡"
+st_model=SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+embedding1=st_model.encode(sentence1)
+embedding2=st_model.encode(sentence2)
+cosine_value=cos_sim(embedding1,embedding2)
+print(cosine_value.item()*100,"%")
+```
+## 实际运行结果
+![Alt text](run_result-1.jpg)
